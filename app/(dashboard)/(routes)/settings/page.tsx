@@ -7,6 +7,7 @@ import { SubscriptionButton } from "@/components/Subscription-button";
 
 const SettingsPage = async () => {
   const isPro = await checkSubscription();
+  console.log("juan");
 
   return ( 
     <div>
